@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 水上発電都市
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+description: '読書や技術についてちまちま書きます。'
+keywords: hexo, 読書, 技術, Ruby, node.js
+author: 水上発電
+language: jp
+timezone: Asia/Tokyo
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
+## If your site is put in a subdsirectory, set url as 'http://example.com/child' and root as '/child/'
 url: https://hydrocity.netlify.app/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:post_title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: phase
+theme: hexo-theme-tsu
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -106,3 +106,5 @@ deploy:
   type: git
   repo: https://github.com/IrukNuj/hydroCity.git
   branch: publish
+
+twitter: _iruk_
