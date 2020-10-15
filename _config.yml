@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://github.com/IrukNuj/hydroCity.git
-root: hydroCity
+url: https://hydrocity.netlify.app/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,4 +105,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/IrukNuj/hydroCity.git
-  branch: master
+  branch: publish
